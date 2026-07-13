@@ -1,0 +1,6 @@
+streamlit
+chromadb
+pymupdf4llm
+google-generativeai
+python-dotenv
+langchain-text-splitters
