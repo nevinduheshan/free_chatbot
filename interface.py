@@ -24,8 +24,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="main-title">📊 Local Financial AI Analyst</div>', unsafe_allow_html=True)
-st.markdown('<div class="sub-title">100% Free Local Vector DB with Predictive Analysis</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title"> Financial AI Analyst</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-title"> Predictive Analysis</div>', unsafe_allow_html=True)
 
 # --- Sidebar Configuration ---
 with st.sidebar:
@@ -38,7 +38,7 @@ with st.sidebar:
 # --- Initialize Chat History ---
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "Hello! I am your Local AI Financial Analyst. Ask me anything about the ingested PDFs!"}
+        {"role": "assistant", "content": "Hello! I am your AI Financial Analyst. Ask me anything about the ingested PDFs!"}
     ]
 
 for message in st.session_state.messages:
